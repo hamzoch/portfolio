@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portofolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="mylogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <h1>Hi!, I'm <span>Hamza</span><br>Ibrahim from Kenya</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        I am a dedicated and passionate software engineer with expertise in front-end web development.
+                        My skill set includes a strong command of HTML, CSS, JavaScript, Bootstrap, and Git. I excel at
+                        creating visually appealing, responsive, and efficient web applications.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link">Skills</p>
+                        <p class="tab-links">experience</p>
+                        <p class="tab-links">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>designing web app interfaces</li>
+                            <li><span>web development</span><br>designing web app development</li>
+                            <li><span>app development</span><br>building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-current</span><br>UI/UX design traning at ET institute</li>
+                            <li><span>2019-2021</span><br>team lead at starApp LLC</li>
+                            <li><span>2017-2019</span><br>UI/UX Design Executive at coin Digital ltd</li>
+                            <li><span>2016-2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>UI/UX design traning at ET institute</li>
+                            <li><span>2020</span><br>MBA from MIT Nairobi</li>
+                            <li><span>2021</span><br>BBA from ISM Nairobi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">my services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web design</h2>
+                    <p>
+                        As a freelance web developer, I specialize in creating custom, responsive, and visually
+                        compelling websites tailored to meet my clients' unique needs. With expertise in HTML, CSS,
+                        JavaScript, Bootstrap, and Git, I deliver high-quality, functional websites that offer seamless
+                        user experiences across devices.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="f1.png">
+                    <div class="layer">
+                        <h3>Furniture Website</h3>
+                        <p>The App show cases the portfolio for a furniture website for a client</p>
+                        <a href="https://hamzafurnitures.netlify.app/"><i
+                                class="fa-solid fa-up-right-from-square "></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="f2.png">
+                    <div class="layer">
+
+                        <h3>Music App</h3>
+                        <p>TheApp Connects You The Talented people around the world dowload it from playstore</p>
+                        <a href="https://hamzafurnitures.netlify.app/"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> hamzadaqare@gmail.com</p>
+                    <p> <i class="fa-sharp fa-solid fa-phone-volume"></i> +254768552705/+254743299510</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="pdf.png" download class="btn">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="your name">
+                        <input type="email" name="email" placeholder="your email name">
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright Hamza.made with <i class="fa-sharp fa-solid fa-heart"></i> by hamza Ibrahim</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
